@@ -1,0 +1,7 @@
+# SmolLM3-3B-Base is supported in Transformers >=4.53.0.
+transformers>=4.53.0
+accelerate>=0.30.0
+safetensors>=0.4.3
+sentencepiece>=0.2.0
+pandas>=2.0
+tabulate>=0.9

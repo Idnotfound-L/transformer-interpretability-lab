@@ -1,0 +1,45 @@
+split,prompt_id,input_token_ids_json,decoded_prompt,first_A_position,successor_B_position,query_position,expected_token_id,decoded_expected_token,corruption_token_id,decoded_corruption_token
+discovery,0,"[94766, 49183, 44655, 71814, 44163, 38936, 65764, 61058, 44655]", Weiner recognizing HttpContext Gabri generators examining holland ecl HttpContext,2,3,8,71814, Gabri,60111, zelf
+discovery,1,"[32421, 82081, 35957, 40124, 125634, 14741, 96775, 81481, 35957]"," browsing Cyc unchanged 🙂
+
+ ネ tickets delights motel unchanged",2,3,8,40124," 🙂
+
+",13031, Der
+discovery,2,"[51889, 84524, 28041, 86586, 32858, 39800, 23268, 39004, 86586]", Marines Cosmos scaling Urg presidency Sidebar upset ammo Urg,3,4,8,32858, presidency,106249, 활
+discovery,3,"[61246, 28784, 16178, 20446, 59854, 77683, 80237, 95654, 20446]", capped gef fib userName antibodies joven Lol pcap userName,3,4,8,59854, antibodies,121619, 取
+discovery,4,"[74255, 34134, 86733, 65813, 25960, 46294, 1054, 69469, 86733]", NYPD oppose budding McA celebration stan “ aggi budding,2,3,8,65813, McA,75674, TAR
+discovery,5,"[80852, 55599, 45764, 37686, 116012, 59119, 19665, 38464, 55599]", cine Sphere forthcoming processors derec kole golf hiking Sphere,1,2,8,45764, forthcoming,89870, Cameras
+discovery,6,"[40332, 107667, 97933, 67141, 53832, 21670, 47672, 92249, 67141]", sanitized milyon Guzzle inorder OD Hur coordinated BITS inorder,3,4,8,53832, OD,80960, pancakes
+discovery,7,"[27718, 23429, 90039, 30257, 32525, 66889, 53389, 87216, 90039]", shocked Asset weighting associations personas Edited Thinking ramps weighting,2,3,8,30257, associations,117353, Fransa
+discovery,8,"[112135, 122178, 79941, 23325, 49273, 99056, 65120, 7738, 23325]", hran băng emulation abund Dayton deselect GRA reset abund,3,4,8,49273, Dayton,17736, Length
+discovery,9,"[13589, 40239, 85548, 27524, 90775, 93643, 66276, 86219, 40239]", cfg remedy Abby Cameron OUTER CNS waypoint policemen remedy,1,2,8,85548, Abby,127504, gelişim
+discovery,10,"[6657, 61528, 19015, 85708, 58009, 7807, 57944, 97985, 85708]", DateTime universally contacts rootReducer hacia PARTICULAR Straw conspicuous rootReducer,3,4,8,58009, hacia,98351, framerate
+discovery,11,"[47784, 80806, 92053, 40522, 18719, 27549, 79761, 57184, 92053]", Concert Gon mattresses promptly invited elle bookstore UNITY mattresses,2,3,8,40522, promptly,10989, Arab
+discovery,12,"[51566, 42805, 47731, 113401, 6319, 99832, 81723, 107905, 42805]", ambitions righteous asi 동안 designed cramped getAddress ABD righteous,1,2,8,47731, asi,53816, ihren
+discovery,13,"[125554, 61029, 33533, 61170, 5567, 116252, 93796, 77470, 33533]", 최대 hostility ragaz GFP Brit Kaynak Extremely senate ragaz,2,3,8,61170, GFP,35990, exported
+discovery,14,"[20524, 73275, 121829, 116232, 45419, 54060, 21887, 112091, 73275]", Ger Screw xong Yani Cheese thyroid reserv ψ Screw,1,2,8,121829, xong,110899, nedenle
+discovery,15,"[32886, 1436, 41623, 86028, 42301, 6688, 1043, 11277, 86028]", Companies could Quinn enclosing rebell gave sup plane enclosing,3,4,8,42301, rebell,34698, fung
+evaluation,100000,"[82504, 112075, 15347, 2098, 62060, 3839, 48127, 41801, 2098]", SKIP Nisan Silver ref 대 track turbo lineback ref,3,4,8,62060, 대,30564, lemon
+evaluation,100001,"[116111, 13021, 69821, 73901, 16403, 27863, 81047, 41495, 13021]", silah mapping vnode Grants URI sculpt ECB Jedi mapping,1,2,8,69821, vnode,29664, Draft
+evaluation,100002,"[14990, 74171, 3485, 38279, 14523, 25679, 114583, 78623, 74171]", Ireland zab above inferior duty emphasis Chúng ATL zab,1,2,8,3485, above,31941, Dry
+evaluation,100003,"[4275, 65887, 12587, 60299, 58980, 14155, 43410, 32079, 12587]", Ne madrid Spe gardening Sey pump guessed funeral Spe,2,3,8,60299, gardening,9293, planning
+evaluation,100004,"[10512, 30839, 32904, 44846, 63566, 81558, 78214, 55007, 30839]", photograph Seek WORK squeez irrigation Waves ripping Backbone Seek,1,2,8,32904, WORK,97862, Mexicans
+evaluation,100005,"[62504, 45598, 44175, 25571, 70695, 126080, 62988, 17120, 44175]", discreet regs hydraulic vc Budapest dokun audition convent hydraulic,2,3,8,25571, vc,81215, subgroup
+evaluation,100006,"[9711, 72309, 16661, 89986, 25113, 84219, 88017, 24702, 72309]", puts wrongly entering resonate camb mythical attest Compare wrongly,1,2,8,16661, entering,5916, touch
+evaluation,100007,"[75455, 88320, 12384, 74072, 82159, 8791, 51045, 42215, 74072]", zb Tecn algorithm poets antagonist ut beams Qui poets,3,4,8,82159, antagonist,47952, statistically
+evaluation,100008,"[83415, 82341, 43693, 95183, 75539, 93278, 73706, 49407, 43693]", refurbished harmonic Strange Glover Ikea gameId RNG Managing Strange,2,3,8,95183, Glover,40916, repeating
+evaluation,100009,"[45468, 8375, 44934, 54704, 63855, 77075, 101827, 35684, 44934]", DAO Sal sek KeyValuePair Patel yp 　　 vault sek,2,3,8,54704, KeyValuePair,65846, jes
+evaluation,100010,"[84599, 11095, 69573, 61272, 24306, 82366, 60966, 57759, 11095]", asia Corpor concession floods composed siendo occupations exh Corpor,1,2,8,69573, concession,74947, mcc
+evaluation,100011,"[38811, 42658, 100115, 16832, 59261, 85237, 28392, 78186, 42658]", arrests realizar kneeling EXPRESS Glory Theo cloth Lies realizar,1,2,8,100115, kneeling,54208, percentages
+evaluation,100012,"[26861, 48090, 35706, 6818, 28640, 125249, 8625, 50550, 48090]", elegant Rapid imagined tried Wayne kaps remains ■ Rapid,1,2,8,35706, imagined,39224, Gren
+evaluation,100013,"[89207, 12562, 12595, 47715, 17258, 6155, 39397, 23179, 47715]", fict sizes Found sip pou contr Instructions Atlantic sip,3,4,8,17258, pou,85202, PriorityQueue
+evaluation,100014,"[72739, 1418, 29977, 39501, 44827, 89022, 58134, 81421, 1418]", compliments while LD Sketch informations amphib joking Byrne while,1,2,8,29977, LD,12528, COPY
+evaluation,100015,"[90106, 67482, 36167, 87089, 41386, 8245, 77289, 66203, 36167]", Efficient beginnings pork Alley dg Information inland unins pork,2,3,8,87089, Alley,42384, teaspoon
+evaluation,100016,"[19609, 100790, 98224, 91684, 11092, 34147, 87319, 43964, 91684]", jPanel trên persuasion tink truck inspiring seasoning Institution tink,3,4,8,11092, truck,76020, Fifty
+evaluation,100017,"[61810, 4747, 98699, 5691, 4442, 62696, 62777, 86432, 98699]", villains concern dicts alloc changes Syracuse paso READY dicts,2,3,8,5691, alloc,44272, SIGN
+evaluation,100018,"[114482, 9943, 64999, 55933, 66969, 36693, 86042, 3824, 55933]", Và flo unarmed  			 SAFE dispens Dio dam  			,3,4,8,66969, SAFE,48721, ordinance
+evaluation,100019,"[81225, 94554, 61912, 39133, 97529, 11782, 3995, 55263, 94554]", Freak HuffPost enthusiast Colombia LES creative young Mold HuffPost,1,2,8,61912, enthusiast,63081, friendships
+evaluation,100020,"[90227, 44560, 18623, 84474, 74310, 49902, 63559, 29422, 18623]", Cecil vx tie Jurassic Henri senha gehen Urban tie,2,3,8,84474, Jurassic,2512, care
+evaluation,100021,"[9298, 65935, 41859, 87610, 96491, 28445, 94683, 98025, 41859]", seeing revolt flaws rex treasurer lub pInfo culp flaws,2,3,8,87610, rex,90453, arcane
+evaluation,100022,"[38109, 84800, 89630, 98468, 85448, 103068, 116940, 33213, 89630]", nueva puss QUI GSL pimp Θ pravidel olive QUI,2,3,8,98468, GSL,101259, ř
+evaluation,100023,"[49866, 59597, 27597, 72130, 6020, 15150, 10500, 24475, 27597]", oid harus STE signUp financial formula weapon listeners STE,2,3,8,72130, signUp,3156, until

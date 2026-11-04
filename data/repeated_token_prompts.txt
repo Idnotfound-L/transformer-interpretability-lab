@@ -1,0 +1,5 @@
+# Controlled repeated-token sequences. Token alignment is checked after tokenization.
+ A B C D A B C
+ red blue green yellow red blue green
+ one two three four one two three
+ cat dog bird fish cat dog bird

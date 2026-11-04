@@ -1,0 +1,52 @@
+{
+  "created_utc": "2026-11-03T18:42:04.465987+00:00",
+  "model_id": "HuggingFaceTB/SmolLM3-3B-Base",
+  "requested_revision": null,
+  "resolved_revision": "d78a42f79198603e614095753484a04c10c2b940",
+  "architecture": "SmolLM3ForCausalLM",
+  "n_layers": 36,
+  "n_query_heads": 16,
+  "n_kv_heads": 4,
+  "intermediate_size": 11008,
+  "device": "cuda:0",
+  "dtype": "torch.bfloat16",
+  "torch_version": "2.11.0+cu130",
+  "python_version": "3.13.16",
+  "seed": 13,
+  "selected_layers": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35
+  ],
+  "selected_layer_count": 8,
+  "discovery_cases": 96,
+  "evaluation_cases": 128,
+  "patch_cases": 12,
+  "top_per_layer": 1,
+  "batch_size": 4,
+  "sequence_copy_cases_sha256": "65a09e68404c0660eb8169660b1de5377774396b0004bc5b3087ea6d6572d388",
+  "token_pool_disjoint": true,
+  "discovery_token_pool_size": 22593,
+  "evaluation_token_pool_size": 22594,
+  "baseline_copy_accuracy": 0.421875,
+  "method_notes": [
+    "Task is [random prefix, A, B, random fillers, A] -> predict B, fixed nine-token length.",
+    "Discovery and evaluation prompts use disjoint token identity pools.",
+    "Attention scores rank candidate heads descriptively; held-out ablations supply causal sensitivity evidence.",
+    "Head and neuron interventions are restricted to the final query position.",
+    "Each layer has discovery-ranked candidates paired with same-layer random component controls.",
+    "Activation patching restores clean block outputs at the corrupted successor-token position or final query position.",
+    "Bootstrap intervals and paired sign-flip tests are prompt-level; BH correction is applied across paired candidate-control tests."
+  ],
+  "limitations": [
+    "Synthetic sequence-copying behaviour is a narrow probe, not a complete account of language understanding.",
+    "Ablation is potentially off-manifold; interpret alongside activation patching and controls.",
+    "Layer screening may be subsampled when --layers is smaller than model depth.",
+    "No claim of a learned induction circuit should be made unless baseline task performance and causal evidence support it."
+  ]
+}

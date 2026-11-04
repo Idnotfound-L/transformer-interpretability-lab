@@ -1,0 +1,4 @@
+Transformer Internals & Mechanistic Interpretability Lab | PyTorch, Hugging Face Transformers, Streamlit
+• Built a hook-based instrumentation and causal-intervention framework (PyTorch, Hugging Face) for GPT-2 and SmolLM3-3B: GQA-aware head ablation, MLP-neuron interventions and activation patching, with a Streamlit dashboard.
+• Designed a three-seed sequence-copying study with disjoint discovery, held-out and control token pools; tested components against random-head and activity-matched neuron controls using bootstrap CIs, sign-flip tests and Benjamini-Hochberg correction.
+• In SmolLM3-3B, Layer 15 Head 11 was selected independently in all three seeds; ablating it cut copy margin ~0.29-0.31 more than matched random heads, with near-zero effect on a control task (specificity +0.26 to +0.32, BH q < 0.001). Evidence of a causal contribution to the synthetic task, not a complete induction circuit.

@@ -1,0 +1,9 @@
+# Evaluation prompts (held out from neuron discovery prompts)
+The capital of France is
+Water freezes at a temperature of
+A triangle has three
+The opposite of hot is
+In a typical solar system, planets orbit a
+Python is a programming language used for
+The chemical symbol for oxygen is
+A year on Earth is approximately 365

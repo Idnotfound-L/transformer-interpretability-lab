@@ -1,0 +1,9 @@
+kind,layer,component,selection,rank,discovery_score,pair_id
+head,0,8,discovery_top,1,0.0334524386562407,head_L0_R1
+head,0,12,random_control,1,,head_L0_R1
+neuron,0,1717,discovery_top,1,6.5546875,neuron_L0_R1
+neuron,0,10523,random_control,1,,neuron_L0_R1
+head,35,9,discovery_top,1,-0.006106790155172348,head_L35_R1
+head,35,3,random_control,1,,head_L35_R1
+neuron,35,9662,discovery_top,1,370.03125,neuron_L35_R1
+neuron,35,2285,random_control,1,,neuron_L35_R1

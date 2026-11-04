@@ -1,0 +1,9 @@
+# Discovery prompts are used only to rank MLP neuron activity.
+The capital of Italy is
+A square has four
+The largest planet in our solar system is
+Plants use sunlight during
+An integer is a whole number that can be
+The boiling point of water at sea level is
+A function maps an input to an
+The Earth revolves around the
