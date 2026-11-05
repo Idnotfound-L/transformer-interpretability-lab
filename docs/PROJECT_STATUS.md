@@ -1,4 +1,4 @@
-# Project status — final bundle
+# Project status
 
 ## Implemented
 
@@ -14,16 +14,16 @@
 - Per-run CSV/JSON/Markdown exports and offline Protocol V2 Streamlit dashboard.
 - Cross-seed indexer for descriptive aggregation.
 
-## Verification in this packaging environment
+## Verification
 
-- `python -m pytest -q`: **28 passed**.
-- Python compilation checks are run during packaging for scripts, source modules and dashboards.
+- `python -m pytest -q` runs the 28-test suite (software components and synthetic model adapters). CI runs it on every push; see `.github/workflows/tests.yml`.
+- Passing tests do not replace empirical validation on pretrained checkpoints; that is what the result bundles are for.
 
 ## Empirical results included
 
 - Protocol V1 exploratory outputs: complete raw CSV/JSON/Markdown files for GPT-2 seed 7 and SmolLM3 seeds 7, 13 and 29, plus a separate SmolLM3 smoke test.
 - GPT-2 Protocol V2: full raw bundles (19 files each) for seeds 7, 13 and 29.
-- SmolLM3-3B Protocol V2: consolidated three-seed findings summary supplied by the project author.
+- SmolLM3-3B Protocol V2: full raw bundles for seeds 7, 13 and 29, plus a consolidated three-seed summary whose headline figures were re-checked against the raw CSVs.
 - V1 and V2 are stored in separate trees under `results/protocol_v1/` and `results/protocol_v2/`.
 
 ## Important evidence limitations
@@ -33,7 +33,3 @@
 - The six runs' summary claims should not be confused with a pooled inferential test. A formal seed-level meta-analysis would require full per-prompt data and should be pre-specified.
 - The random-transition control is a generic sensitivity control and had 0% accuracy in reported runs; consider a difficulty-matched natural-text control in future work.
 - The current study is a synthetic probe. It does not establish a complete induction circuit or broad natural-language mechanism.
-
-## CV guidance
-
-The CV entry uses a qualified finding: a candidate component makes a reproducible causal contribution to the measured synthetic task. Do not call it a complete induction head/circuit.

@@ -90,4 +90,4 @@ A 3B checkpoint in BF16/FP16 requires approximately 6 GB for weights alone; runt
 - Report prompt-level observations, confidence intervals and null effects.
 - Attention is descriptive; combine it with intervention and patching evidence.
 - Ablation can push activations off the model's normal distribution. Triangulate with patching, matched controls and alternative prompts.
-- Do not write a CV claim about a discovered circuit or a measured effect until you have inspected and understood the saved output files.
+- Do not claim a discovered circuit or a measured effect until you have inspected and understood the saved output files.

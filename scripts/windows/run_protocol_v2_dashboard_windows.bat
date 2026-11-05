@@ -1,6 +1,6 @@
 @echo off
 setlocal
-cd /d "%~dp0"
+cd /d "%~dp0..\.."
 if not exist ".venv\Scripts\python.exe" (
   echo Project virtual environment not found. Run setup_windows.bat first.
   pause

@@ -1,8 +1,8 @@
-# Complete research archive manifest
+# Results archive manifest
 
 ## Archive purpose
 
-This package contains the project codebase, dashboard, tests, documentation, and the run artifacts that were available at packaging time. Experiment results are organized into separate Protocol V1 and Protocol V2 trees to prevent accidental pooling.
+This repository contains the project codebase, dashboard, tests, documentation, and the run artifacts that were available when the results were archived. Experiment results are organized into separate Protocol V1 and Protocol V2 trees to prevent accidental pooling.
 
 ## Protocol inventory
 
@@ -23,7 +23,7 @@ The V1 run reports are not V2 results. Do not combine their CSV rows, means, con
 - V1 sequence-copy implementation: `src/interpretability_lab/sequence_copy.py` and the corresponding legacy runner.
 - V2 corrected implementation: `src/interpretability_lab/sequence_copy_v2.py`, `scripts/run_sequence_copy_study_v2.py`, and the V2 dashboard.
 - Protocol documentation: `docs/EXPERIMENT_PROTOCOL.md`, `docs/PROTOCOL_V2_CHANGELOG.md`, `docs/REPRODUCIBILITY_CHECKLIST.md`.
-- The original project package recorded 28 passing tests at packaging time; this archive reorganization itself does not change source code.
+- The test suite has 28 tests; see the top-level README.
 
 ## Evidence limitations
 
@@ -34,4 +34,4 @@ The V1 run reports are not V2 results. Do not combine their CSV rows, means, con
 
 ## Integrity
 
-A file-level SHA-256 inventory is provided in `ARCHIVE_SHA256SUMS.txt`. Original V1 result ZIPs are retained in `results/protocol_v1/raw_archives/`.
+A file-level SHA-256 inventory is provided in `SHA256SUMS.txt` (in this folder; verify from the repository root with `sha256sum -c docs/provenance/SHA256SUMS.txt`). Original V1 result ZIPs are retained in `results/protocol_v1/raw_archives/`.

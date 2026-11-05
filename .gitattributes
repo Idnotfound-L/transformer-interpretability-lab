@@ -1,0 +1,8 @@
+# Normalise line endings so results and checksums are identical on every OS.
+* text=auto eol=lf
+# Windows batch files need CRLF (LF-only .bat files can break goto/labels in cmd.exe).
+*.bat text eol=crlf
+# Never touch binary files.
+*.png binary
+*.zip binary
+*.pdf binary

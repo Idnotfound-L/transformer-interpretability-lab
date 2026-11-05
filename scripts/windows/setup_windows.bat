@@ -1,5 +1,5 @@
 @echo off
-cd /d "%~dp0"
+cd /d "%~dp0..\.."
 setlocal
 if not exist .venv\Scripts\python.exe (
   py -3.11 -m venv .venv

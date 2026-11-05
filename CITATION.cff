@@ -1,5 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this project, please cite it as a software project and include the exact Git commit and model/data configuration used."
 title: "Transformer Internals & Mechanistic Interpretability Lab"
+authors:
+  - alias: "Idnotfound-L"
+repository-code: "https://github.com/Idnotfound-L/transformer-interpretability-lab"
 type: software
 license: MIT
