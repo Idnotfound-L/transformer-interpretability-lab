@@ -1,7 +1,5 @@
 # Protocol V2 — quick reference
 
-Protocol V2 is integrated into the project. It is not a patch-only archive.
-
 ## Main runner
 
 ```bash
