@@ -1,6 +1,6 @@
 # SmolLM3-3B-Base — Protocol V2, three-seed findings summary
 
-**Evidence status:** This document transcribes and organises the project author's consolidated summary of the three SmolLM3 Protocol V2 runs (seeds 7, 13 and 29). The raw per-run V2 CSV bundles were not attached in the files available when this final ZIP was assembled. Treat the numerical ranges below as author-reported results pending a raw-artifact audit; do not treat this file as a substitute for the individual run reports and CSVs.
+**Evidence status:** Consolidated summary of the three SmolLM3 Protocol V2 runs (seeds 7, 13 and 29). The full raw per-seed bundles are in `seed_7/`, `seed_13/` and `seed_29/` next to this file. The following figures were re-checked against those raw CSVs: held-out copy accuracy (0.4375 / 0.4609 / 0.4609), the L15 H11 selected-minus-random margin drop (0.290–0.315; per-seed 95% CIs all exclude zero), copy-minus-control specificity (0.263–0.321) and BH q-values (< 0.001 in every seed). The remaining figures (e.g. patching ranges and per-neuron observations) are drawn from the per-run reports and have not been independently recomputed. This file is a summary, not a substitute for the per-run reports and CSVs.
 
 ## Study configuration
 
@@ -26,7 +26,7 @@ Interpretation: the model exhibits partial, not strong, sequence-copying perform
 
 ## Replicated attention-head candidate: Layer 15, Head 11
 
-The author reports that L15 H11 was selected during discovery in all three seeds. Its ablation produced an additional copy-task mean-margin drop of approximately 0.29–0.31 relative to a matched random head (BH-adjusted q < 0.001), with copy-minus-control specificity of approximately +0.26 to +0.32 (BH-adjusted q < 0.001).
+L15 H11 was selected during discovery in all three seeds. Its ablation produced an additional copy-task mean-margin drop of approximately 0.29–0.31 relative to a matched random head (BH-adjusted q < 0.001), with copy-minus-control specificity of approximately +0.26 to +0.32 (BH-adjusted q < 0.001).
 
 This supports describing L15 H11 as a **candidate attention head that causally contributes to the measured sequence-copying behaviour**. It does not establish that the head alone implements a complete induction circuit. The reported top-1 prediction changed on only about 6% of prompts, with accuracy moving from about 0.44 to 0.39 under ablation.
 

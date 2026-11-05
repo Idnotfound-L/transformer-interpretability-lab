@@ -1,6 +1,6 @@
 # Reproducibility and research-integrity checklist
 
-Complete this checklist before using numerical findings in a CV, report, presentation or interview.
+Complete this checklist before using numerical findings in a report, paper or presentation.
 
 ## Before running
 
@@ -39,4 +39,4 @@ Complete this checklist before using numerical findings in a CV, report, present
 - [ ] Preserve raw CSV/JSON outputs, run metadata and the generated report.
 - [ ] Include software/hardware environment and any deviations from protocol.
 - [ ] Include null results and limitations.
-- [ ] Use only measured values in CV bullets; do not copy example placeholders.
+- [ ] Quote only measured values; do not copy example placeholders.
