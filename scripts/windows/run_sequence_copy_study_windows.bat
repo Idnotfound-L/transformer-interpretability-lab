@@ -1,5 +1,5 @@
 @echo off
-cd /d "%~dp0"
+cd /d "%~dp0..\.."
 if not exist ".venv\Scripts\python.exe" (
   echo Run setup_windows.bat and setup_huggingface_windows.bat first.
   pause
